@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "sms backend",
+    "builds": [
+       { "src": "index.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/" }
+    ]
+ }
